@@ -8,6 +8,7 @@ example_grid_problem = GridProblem(initial_state=(7,4),
  wall_coords=example_walls,
  food_coords=example_food)
 
+print(example_grid_problem.is_goal( state=((7, 5), (False, True, False))  ))
 
-print(example_grid_problem.result((1,1), 'up') )
+
 
